@@ -1,0 +1,78 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  font-size: 6.25%;
+}
+
+body {
+  background-color: rgb(191, 241, 242);
+  font-family: sans-serif;
+}
+
+img {
+  width: 45rem;
+}
+
+.container {
+  margin: 250rem auto;
+  width: 450rem;
+  background-color: rgb(222, 250, 247);
+  box-shadow: 3rem 3rem 3rem 3rem rgb(111, 113, 113);
+  border-radius: 10rem;
+  padding: 20rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 35rem;
+  text-align: center;
+  color: rgb(5, 83, 5);
+  margin-bottom: 40rem;
+}
+
+.emotions {
+  margin-bottom: 30rem;
+  padding-left: 20rem;
+  padding-right: 20rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20rem;
+}
+
+.emotion {
+  border-radius: 7rem;
+  border: none;
+  padding: 15rem;
+  background-color: rgb(222, 250, 247);
+}
+
+.emotion:hover,
+p:hover {
+  background-color: rgb(166, 212, 158);
+  color: white;
+}
+
+p {
+  font-size: 18rem;
+  padding: 5rem;
+  color: rgb(10, 104, 10);
+  text-align: center;
+}
+
+.send {
+  background-color: rgb(25, 128, 116);
+  border: none;
+  color: white;
+  font-size: 20rem;
+  padding: 10rem 20rem 10rem 20rem;
+  border-radius: 5rem;
+  margin-bottom: 10rem;
+  box-shadow: 1rem 1rem 1rem 1rem gray;
+}
